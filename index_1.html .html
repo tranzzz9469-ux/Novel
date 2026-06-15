@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="doiChu()">Ấn vào đây</button>
+<p id="text"></p>
+
+<script>
+let lanBam = 0;
+
+function doiChu() {
+    lanBam++;
+
+    if (lanBam === 1) {
+        document.getElementById("text").innerText = "test 1";
+    } else if (lanBam === 2) {
+        document.getElementById("text").innerText = "test 2";
+    }
+}
+</script>
+
+</body>
+</html>
